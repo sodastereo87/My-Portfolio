@@ -252,7 +252,7 @@ input[type=submit] {
     float: left;
     }
     .auth-image {
-      width: 50%;
+      width: 40%;
       margin-bottom: 10px;
     }
     
@@ -275,6 +275,3 @@ input[type=submit] {
 header {
   position: static;
 }
-
-
-/* <meta name="viewport" content="width=device-width, initial-scale=1"> */
