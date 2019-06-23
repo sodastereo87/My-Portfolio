@@ -7,12 +7,37 @@ body {
   background: url("../images/concrete_seamless.png");
   background-image: url("https://i.ytimg.com/vi/d-zKJCKsoWw/maxresdefault.jpg");
 }
+  
+#pic {
+  border-radius: 5%;
+}
+
 #am{
   text-align: center;
+  padding-left: 10px;
 }
-#cont{
+#cont, #logo {
   color: blue;
   font-size: 25px;
+  background: none;
+  border: none; 
+  
+}
+
+#cont:hover {
+  color: steelblue;
+  
+}
+
+#logo:hover {
+  color: steelblue;
+  
+}
+
+
+#submit:hover {
+  background: steelblue;
+  
 }
 
 * {
@@ -126,6 +151,14 @@ h3, h2 {
 }
 
 /* main */
+#ma {
+  padding-left: 0px;
+  margin-left: -160px;
+}
+
+#section {
+  padding-left: 170px;
+}
 
 #main-container {
   padding-top: 130px;
@@ -160,6 +193,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  border-radius: 15%;
 }
 
 .work h3 {
@@ -168,11 +202,12 @@ h3, h2 {
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
-  font-weight: 300;
+  /* font-weight: 300; */
   line-height: 30px;
-  color: #ffffff;
+  color:orangered;
   text-align: center;
-  background: rgb(59, 59, 250);
+  font-size: 35px;
+  /* background: rgb(59, 59, 250); */
   border-bottom: 0;
 }
 
