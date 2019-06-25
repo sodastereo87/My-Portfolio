@@ -3,9 +3,9 @@ body {
   font-size: 18px;
   margin-top: 0px;
   line-height: 34px;
-  color: #777777;
+  color: white;
   background: url("../images/concrete_seamless.png");
-  background-image: url("https://i.ytimg.com/vi/d-zKJCKsoWw/maxresdefault.jpg");
+  background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/computer-laptop-work-office.jpg");
 }
   
 #pic {
@@ -69,7 +69,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: rgb(59, 59, 250);
+  color: white;
 }
 
 h1 {
@@ -95,6 +95,7 @@ h3 {
   color: #ffffff;
   background-image: url("https://images.pond5.com/computer-code-background-footage-000864896_prevstill.jpeg");
   border-bottom: 2px solid #cccccc;
+  /* background-color: rgb(70, 130, 180, 0.4); */
 }
 
 #logo {
@@ -132,16 +133,27 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 5px 0;
   clear: both;
   font-size: 15px;
   color: #ffffff;
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid rgb(59, 59, 250);
-  height: 75px;
+  border-top: 8px solid rgb(70, 130, 180, 0.4);
+  height: 85px;
 }
+
+#social {
+  color:  lightgrey;
+}
+
+
+#social:hover {
+
+  color: steelblue;
+  
+}
+
 
 h3, h2 {
   padding-bottom: 20px;
@@ -171,11 +183,18 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: lightgray;
+  background: rgb(70, 130, 180, 0.4);
   border: 1px solid #dddddd;
 }
 
 /* portfolio page */
+
+
+.work:hover {
+  background: steelblue;
+  
+}
+
 
 .work {
   position: relative;
@@ -311,9 +330,6 @@ input[type=submit] {
   }
   
 }
-
-
-
 
 header {
   position: static;
