@@ -10,6 +10,7 @@ body {
   
 #pic {
   border-radius: 5%;
+  box-shadow: 0 0 15px grey;
 }
 
 #am{
@@ -186,6 +187,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: rgb(70, 130, 180, 0.4);
   border: 1px solid #dddddd;
+  box-shadow: 0 0 15px black;
 }
 
 /* portfolio page */
