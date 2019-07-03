@@ -7,6 +7,10 @@ body {
   background: url("../images/concrete_seamless.png");
   background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/computer-laptop-work-office.jpg");
 }
+
+html {
+  scroll-behavior: smooth;
+}
   
 
 .card {
@@ -41,6 +45,7 @@ img {
   text-align: center;
   padding-left: 10px;
 }
+
 
 #cont, #logo, #myBtn {
   color: blue;
@@ -201,7 +206,7 @@ h3, h2 {
   padding-left: 130px;
 }
 
-#main-container {
+#main-container, #main-container2 {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
 }
@@ -382,4 +387,12 @@ header {
         background: grey;
         box-shadow: 0 0 15px black;
       }
+
+#up {
+  color: white;
+ }
+
+#up:hover {
+color: steelblue;
+  }
    
