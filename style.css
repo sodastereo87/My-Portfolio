@@ -4,8 +4,9 @@ body {
   margin-top: 0px;
   line-height: 34px;
   color: white;
-  background: url("../images/concrete_seamless.png");
-  background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/computer-laptop-work-office.jpg");
+  /* background: url("../images/concrete_seamless.png"); */
+  /* background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/computer-laptop-work-office.jpg"); */  
+  background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
 }
 
 html {
@@ -14,7 +15,7 @@ html {
   
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
   width: 40%;
   border-radius: 5px;
@@ -30,11 +31,7 @@ html {
 
 img {
   border-radius: 5px 5px 0 0;
-}
-
-.container {
-  padding: 2px 16px;
-}
+} 
 
 #pic {
   border-radius: 5%;
@@ -48,7 +45,7 @@ img {
 
 
 #cont, #logo, #myBtn {
-  color: blue;
+  color: black;
   font-size: 25px;
   background: none;
   border: none; 
@@ -56,16 +53,16 @@ img {
 }
 
 #cont:hover {
-  color: steelblue;
+  color: blue;
 }
 
 #logo:hover {
-  color: steelblue;
+  color: blue;
   
 }
 
 #myBtn:hover {
-  color: steelblue;
+  color: blue;
 }
 
 
@@ -85,6 +82,7 @@ img {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    padding: 2px 16px;
   }
 
 h1,
@@ -126,10 +124,8 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background-image: linear-gradient(to right, steelblue , white);
-  /* background-image: linear-gradient(white, steelblue); */
-  border-bottom: 2px solid #cccccc;
-  /* background-color: rgb(70, 130, 180, 0.4); */
+  background-image: linear-gradient(to right, steelblue , grey);
+  margin-left: -16px;
 }
 
 #logo {
@@ -140,7 +136,7 @@ h3 {
   font-size: 31px;
   font-weight: 700;
   line-height: 90px;
-  color: blue;
+  color: black;
   text-align: center;
   text-decoration: none;
 }
@@ -174,11 +170,12 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid rgb(70, 130, 180, 0.4);
-  height: 85px;
+  height: 100px;
 }
 
 #social {
   color:  lightgrey;
+  margin: 8px;
 }
 
 
@@ -204,10 +201,11 @@ h3, h2 {
 
 #section {
   padding-left: 130px;
+  margin-top: 90px;
 }
 
 #main-container, #main-container2 {
-  padding-top: 130px;
+  padding-top: 50px;
   min-height: calc(100vh - 70px);
 }
 
@@ -215,10 +213,10 @@ h3, h2 {
   float: left;
   width: 100%;
   max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: rgb(70, 130, 180, 0.4);
-  box-shadow: 0 0 15px black;
+  padding: 35px;
+  background: rgb(70, 130, 180, 0.5);
+  box-shadow: 0 0 10px lightgrey;
+  margin-top: 180px;
 }
 
 .auth-image {
@@ -386,13 +384,55 @@ header {
         margin: 0 0 40px;
         background: grey;
         box-shadow: 0 0 15px black;
+        text-align: left;
       }
 
 #up {
-  color: white;
+  color: grey;
+  float: right;
+  margin: 20px;
  }
 
 #up:hover {
 color: steelblue;
   }
    
+   /* skills tab */
+  
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.bars {
+  background: rgb(70, 130, 180, 0.5);
+  box-shadow: 0 0 10px lightgrey;
+  margin: auto;
+  width: 60%;
+  padding: 50px;
+}
+
+.skill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color:grey; height: 50px;} /* Green */
+.css {width: 80%; background-color:grey; height: 50px;} /* Blue */
+.js {width: 65%; background-color:grey; height: 50px;} /* Red */
+.php {width: 60%; background-color:grey; height: 50px;} /* Dark Grey */
+
+#hh {
+  text-align: center;
+}
+
+#hhbars {
+  padding: 70px;
+}
+
