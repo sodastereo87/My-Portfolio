@@ -24,3 +24,12 @@
       modal.style.display = "none";
     }
   }
+
+  // send button back to mail page
+//   $(function(){
+//     $('#submit').click(function() {
+//         window.close();
+//         window.open('#masthead'); 
+//     });
+// });
+

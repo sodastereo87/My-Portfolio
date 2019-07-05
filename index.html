@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,8 +34,8 @@
 
         <img id="pic" src="images/IMG_9674.JPG" class="auth-image" alt="Your Name">
 
-        <p> Full-Stack Web development certified. Skilled in Front-end Development, HTML and Cascading
-          Style Sheets (CSS). Javascript,
+        <p> Full-Stack Web development certified. Skilled in Front-end Development, HTML 
+          and Cascading Style Sheets (CSS). Javascript,
           Express.js, jQuery, and Databases. Professional graduated from University of Miami Full-Stack Web Development
           program. Basic knowledge of
           Back-end Development. Experienced Food and Beverage Specialist in Customer Service. History of working in the
@@ -176,25 +177,27 @@
         <div id="main-container" class="container">
           <section class="main-modal">
             <span class="close"><i class="fas fa-times-circle"></i></span>
-            <h1 id="am">Contact Me</h1>
+            <h1 id="am">Contact Us</h1>
 
-            <form id="contact-form">
+            <form id="contact-form" action="mailto:f_er_010@hotmail.com" method="post" enctype="text/plain">
               <ul>
                 <li>
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                  <label for="name">Name </label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required="required">
                 </li>
                 <li>
-                  <label for="email">Email</label>
+                  <label for="email">Email </label>
                   <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
                 </li>
                 <li>
-                  <label for="message">Message</label>
+                  <label for="message">Message </label>
                   <textarea id="message" name="message" required="required"></textarea>
                 </li>
               </ul>
-              <input id="submit" type="submit">
+              <input id="submit" type="submit" value="Send">
+              <input id="reset" type="reset" value="Reset">
             </form>
+          </form>
 
           </section>
 

@@ -7,6 +7,7 @@ body {
   /* background: url("../images/concrete_seamless.png"); */
   /* background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/computer-laptop-work-office.jpg"); */  
   background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
+  /* background-size: 1900px 880px; */
 }
 
 html {
@@ -52,21 +53,11 @@ img {
   margin-left: 10px;
 }
 
-#cont:hover {
+#cont:hover, #logo:hover, #myBtn:hover  {
   color: blue;
 }
 
-#logo:hover {
-  color: blue;
-  
-}
-
-#myBtn:hover {
-  color: blue;
-}
-
-
-#submit:hover {
+#submit:hover, #reset:hover {
   background: steelblue;
   
 }
@@ -166,7 +157,6 @@ footer {
   clear: both;
   font-size: 15px;
   color: #ffffff;
-  color: #cccccc;
   text-align: center;
   background: #666666;
   border-top: 8px solid rgb(70, 130, 180, 0.4);
@@ -217,6 +207,7 @@ h3, h2 {
   background: rgb(70, 130, 180, 0.5);
   box-shadow: 0 0 10px lightgrey;
   margin-top: 180px;
+  text-align: left;
 }
 
 .auth-image {
@@ -228,6 +219,16 @@ h3, h2 {
 }
 
 /* contact page */
+
+#reset {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgb(59, 59, 250);
+  border: 0 none;
+  border-radius: 25px;
+}
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -371,7 +372,7 @@ header {
 
       .close:hover,
       .close:focus {
-        color:#aaaaaa;
+        color: steelblue;
         text-decoration: none;
         cursor: pointer;
       }
