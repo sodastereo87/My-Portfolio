@@ -10,18 +10,22 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
 </head>
 
 <body>
   <div class="w3-container w3-center w3-animate-zoom">
     <header id="masthead">
       <div class="container">
-        <a href="#main-container" id="logo"> Fernando Valle</a>
+        <a href="#main-container" id="logo"><strong>ABOUT ME</strong></a>
         <nav class="cont">
           <a href="#hhbars" id="cont"><i class="fas fa-address-card"></i><strong> Skills</strong></a>
-          <a href="#main-container2" id="cont"><i class="fas fa-atlas"></i><strong> Portfolio</strong></a></a>
-          <button id="myBtn"><i class="fas fa-envelope"></i><strong> Contact</strong></button>
+          <a href="#main-container2" id="cont"><i class="fas fa-atlas"></i><strong> Portfolio</strong></a>
+          <form id="form" action="mailto:f_er_010@hotmail.com" method="post" enctype="text/plain">
+            <!--forms by default are not in line elements-->
+            <button id="myBtn"><i class="fas fa-envelope"></i><strong> Contact</strong></button></form>
         </nav>
       </div>
     </header>
@@ -30,11 +34,15 @@
   <div class="w3-container w3-center w3-animate-zoom">
     <div id="main-container" class="container">
       <section class="main-section">
-        <h1 id="am">ABOUT ME</h1>
+        <h1 id="am"><span
+          class="txt-rotate"
+          data-period="2000"
+          data-rotate='[ "Fernando Valle", "Full-Stack Developer" ]'></span>
+        </h1>
 
         <img id="pic" src="images/IMG_9674.JPG" class="auth-image" alt="Your Name">
 
-        <p> Full-Stack Web development certified. Skilled in Front-end Development, HTML 
+        <p> Full-Stack Web development certified. Skilled in Front-end Development, HTML
           and Cascading Style Sheets (CSS). Javascript,
           Express.js, jQuery, and Databases. Professional graduated from University of Miami Full-Stack Web Development
           program. Basic knowledge of
@@ -168,16 +176,16 @@
 
 
 
-  <div id="myModal" class="modal">
+  <!-- <div id="myModal" class="modal"> -->
 
-    <!-- Modal content -->
-    <div class="w3-container w3-center w3-animate-zoom">
+  <!-- Modal content -->
+  <!-- <div class="w3-container w3-center w3-animate-zoom">
       <div class="modal-content">
 
         <div id="main-container" class="container">
           <section class="main-modal">
             <span class="close"><i class="fas fa-times-circle"></i></span>
-            <h1 id="am">Contact Us</h1>
+            <h1 id="am">Contact </h1>
 
             <form id="contact-form" action="mailto:f_er_010@hotmail.com" method="post" enctype="text/plain">
               <ul>
@@ -205,7 +213,7 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   <script type="text/javascript" src="app.js"></script>
 

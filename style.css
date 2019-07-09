@@ -18,7 +18,6 @@ html {
 .card {
   box-shadow: 0 15px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
-  width: 40%;
   border-radius: 5px;
   float: left;
     margin: 21px;
@@ -44,7 +43,6 @@ img {
   padding-left: 10px;
 }
 
-
 #cont, #logo, #myBtn {
   color: black;
   font-size: 25px;
@@ -60,6 +58,10 @@ img {
 #submit:hover, #reset:hover {
   background: steelblue;
   
+}
+
+#form {
+  display: inline;
 }
 
 * {
@@ -229,14 +231,14 @@ h3, h2 {
   border: 0 none;
   border-radius: 25px;
 }
-
+/* 
 #contact-form ul {
   margin-bottom: 20px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
-}
+} */
 
 label,
 input[type=text],
@@ -437,3 +439,12 @@ color: steelblue;
   padding: 70px;
 }
 
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;  
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
