@@ -197,7 +197,6 @@ h3, h2 {
 }
 
 #main-container, #main-container2 {
-  padding-top: 50px;
   min-height: calc(100vh - 70px);
 }
 
@@ -208,7 +207,7 @@ h3, h2 {
   padding: 35px;
   background: rgb(70, 130, 180, 0.5);
   box-shadow: 0 0 10px lightgrey;
-  margin-top: 180px;
+  margin-top: 140px;
   text-align: left;
 }
 
@@ -431,6 +430,8 @@ color: steelblue;
 .jQuery {width: 60%; background-color:grey; height: 50px;} /* Dark Grey */
 .db {width: 70%; background-color:grey; height: 50px;} /* Dark Grey */
 .node {width: 40%; background-color:grey; height: 50px;} /* Dark Grey */
+.react {width: 10%; background-color:grey; height: 50px;} /* Dark Grey */
+
 
 
 #hh {
